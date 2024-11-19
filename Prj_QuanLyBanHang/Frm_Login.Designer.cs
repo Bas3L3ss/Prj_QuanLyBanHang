@@ -1,6 +1,6 @@
 ﻿namespace Prj_QuanLyBanHang
 {
-    partial class Form1
+    partial class Frm_Login
     {
         /// <summary>
         /// Required designer variable.

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Prj_QuanLyBanHang
+namespace Prj_QuanLyBanHang.GUI
 {
-    public partial class Form1 : Form
+    public partial class Frm_MainQLBH : Form
     {
-        public Form1()
+        public Frm_MainQLBH()
         {
             InitializeComponent();
         }

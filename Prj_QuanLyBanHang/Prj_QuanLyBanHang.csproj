@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,14 +47,77 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="BLL\Product.cs" />
+    <Compile Include="BLL\Products.cs" />
+    <Compile Include="BLL\Receipt.cs" />
+    <Compile Include="BLL\Receipts.cs" />
+    <Compile Include="BLL\Sales.cs" />
+    <Compile Include="BLL\SalesDetails.cs" />
+    <Compile Include="BLL\User.cs" />
+    <Compile Include="BLL\Users.cs" />
+    <Compile Include="Frm_Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Frm_Login.Designer.cs">
+      <DependentUpon>Frm_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Frm_Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Frm_Users.Designer.cs">
+      <DependentUpon>Frm_Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Frm_UserDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Frm_UserDetails.Designer.cs">
+      <DependentUpon>Frm_UserDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Frm_ReceiptDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Frm_ReceiptDetails.Designer.cs">
+      <DependentUpon>Frm_ReceiptDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Frm_Receipts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Frm_Receipts.Designer.cs">
+      <DependentUpon>Frm_Receipts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Frm_ProductDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Frm_ProductDetails.Designer.cs">
+      <DependentUpon>Frm_ProductDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Frm_SalesDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Frm_SalesDetails.Designer.cs">
+      <DependentUpon>Frm_SalesDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Frm_Sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Frm_Sales.Designer.cs">
+      <DependentUpon>Frm_Sales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Frm_Products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Frm_Products.Designer.cs">
+      <DependentUpon>Frm_Products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Frm_MainQLBH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Frm_MainQLBH.Designer.cs">
+      <DependentUpon>Frm_MainQLBH.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DAL\Providers.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -75,6 +139,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Database\quanlybanhang.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
