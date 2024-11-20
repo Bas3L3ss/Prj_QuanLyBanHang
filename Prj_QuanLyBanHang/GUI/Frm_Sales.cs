@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Prj_QuanLyBanHang.GUI
 {
-    public partial class Frm_MainQLBH : Form
+    public partial class Frm_Sales : Form
     {
-        public Frm_MainQLBH()
+        public Frm_Sales()
         {
             InitializeComponent();
         }
