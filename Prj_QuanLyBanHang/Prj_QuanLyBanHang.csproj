@@ -121,6 +121,9 @@
     <EmbeddedResource Include="GUI\Frm_MainQLBH.resx">
       <DependentUpon>Frm_MainQLBH.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Frm_ReceiptDetails.resx">
+      <DependentUpon>Frm_ReceiptDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
